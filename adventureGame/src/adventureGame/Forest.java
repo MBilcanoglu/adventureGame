@@ -1,0 +1,9 @@
+package adventureGame;
+
+public class Forest extends BattleLoc {
+
+	Forest(Player player) {
+		super(player, "Orman", new Vampire(), "Odun", 3);
+	}
+
+}
